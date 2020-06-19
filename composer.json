@@ -1,0 +1,33 @@
+{
+    "name": "de-paco/codeigniter-swoole",
+    "type": "library",
+    "description": "A swoole adapter for Codeigniter 3.0+",
+    "keywords": ["Swoole", "Codeigniter", "Adapter", "Long Run", "Timers", "PHP", "Task"],
+    "homepage": "https://github.com/de-paco/codeigniter-swoole",
+    "suggests": "Using this adapter within CodeIgniter 3.0+ and Swoole 4.0.0+, PHP 7.0+ would be better.",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "lanlin",
+            "email": "lanlin1987@gmail.com"
+        },
+        {
+            "name": "de-paco",
+            "email": "depaco@tftc.dev"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-swoole": "^4.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "files": [ "src/Helpers/magics.php" ],
+        "psr-4": {
+            "CiSwoole\\": "src/",
+            "CiSwooleTests\\": "tests/"
+        }
+    }
+}
