@@ -1,5 +1,5 @@
 {
-    "name": "de-paco/codeigniter-swoole",
+    "name": "depaco/codeigniter-swoole",
     "type": "library",
     "description": "A swoole adapter for Codeigniter 3.0+",
     "keywords": ["Swoole", "Codeigniter", "Adapter", "Long Run", "Timers", "PHP", "Task"],
@@ -12,7 +12,7 @@
             "email": "lanlin1987@gmail.com"
         },
         {
-            "name": "de-paco",
+            "name": "depaco",
             "email": "depaco@tftc.dev"
         }
     ],
