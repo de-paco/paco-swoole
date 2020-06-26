@@ -14,8 +14,12 @@
 | For more detail document, view this link below
 | @link https://www.swoole.co.uk/docs/modules/swoole-server-doc
 */
-$swoole['server_host'] = '127.0.0.1';
-$swoole['server_port'] = 9501;
+//$swoole['server_host'] = '127.0.0.1';
+//$swoole['server_port'] = 9501;
+
+$swoole['server_type'] = SWOOLE_SOCK_UNIX_STREAM;
+$swoole['server_host'] = '/var/run/swoole.sock';
+$swoole['server_port'] = null;
 
 
 /*
