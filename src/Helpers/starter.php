@@ -352,17 +352,17 @@ $swoole_cfg = getCiSwooleConfig('swoole');
 
 if ($swoole_cfg['profiling'] === 0)
 {
-    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
-    error_log($BM->elapsed_time('total_execution_time_start', 'total_execution_time_end'), 3, APPPATH . 'logs/swoole_debug.log');
-
-    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
-    error_log(json_encode($_POST), 3, APPPATH . 'logs/swoole_debug.log');
-
-    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
-    error_log(json_encode($_SERVER['argv']), 3, APPPATH . 'logs/swoole_debug.log');
-
-
-    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
+//    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
+//    error_log($BM->elapsed_time('total_execution_time_start', 'total_execution_time_end'), 3, APPPATH . 'logs/swoole_debug.log');
+//
+//    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
+//    error_log(json_encode($_POST), 3, APPPATH . 'logs/swoole_debug.log');
+//
+//    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
+//    error_log(json_encode($_SERVER['argv']), 3, APPPATH . 'logs/swoole_debug.log');
+//
+//
+//    error_log(PHP_EOL, 3, APPPATH . 'logs/swoole_debug.log');
 }
 
 /*
