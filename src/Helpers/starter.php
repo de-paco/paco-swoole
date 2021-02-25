@@ -156,12 +156,6 @@
 	$LANG =& load_class('Lang', 'core');
 
 /*
-* ------------------------------------------------------
-*  Load the Emerald_model ORM class
-* ------------------------------------------------------
-*/
-    $EMERALD_MODEL =& load_class('Emerald_model', 'core');
-/*
  * ------------------------------------------------------
  *  Load the app controller and local controller
  * ------------------------------------------------------
