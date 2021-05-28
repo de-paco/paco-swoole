@@ -34,7 +34,7 @@ function ____intercepter____()
 {
     try
     {
-        if (!is_cli()) { return; }
+        if (php_sapi_name() !== 'cli') { return; }
 
         $command = trim($_SERVER['argv'][1] ?? '', '/');
 
